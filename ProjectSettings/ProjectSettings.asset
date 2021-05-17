@@ -8,11 +8,11 @@ PlayerSettings:
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
-  defaultScreenOrientation: 4
+  defaultScreenOrientation: 0
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
+  companyName: Gley
   productName: AppTrackingTransparency-iOS
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
@@ -57,7 +57,7 @@ PlayerSettings:
   iosUseCustomAppBackgroundBehavior: 0
   iosAllowHTTPDownload: 1
   allowedAutorotateToPortrait: 1
-  allowedAutorotateToPortraitUpsideDown: 1
+  allowedAutorotateToPortraitUpsideDown: 0
   allowedAutorotateToLandscapeRight: 1
   allowedAutorotateToLandscapeLeft: 1
   useOSAutorotation: 1
@@ -145,12 +145,13 @@ PlayerSettings:
   resolutionScalingMode: 0
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
-  applicationIdentifier: {}
+  applicationIdentifier:
+    iPhone: com.gley.chickenjump
   buildNumber:
     Standalone: 0
     iPhone: 0
     tvOS: 0
-  overrideDefaultApplicationIdentifier: 0
+  overrideDefaultApplicationIdentifier: 1
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 19
   AndroidTargetSdkVersion: 0
@@ -578,7 +579,10 @@ PlayerSettings:
   webGLLinkerTarget: 1
   webGLThreadsSupport: 0
   webGLDecompressionFallback: 0
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    4: USE_UNITYADS
+    7: USE_UNITYADS
+    14: 
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}
@@ -653,7 +657,10 @@ PlayerSettings:
   XboxOneOverrideIdentityPublisher: 
   vrEditorSettings: {}
   cloudServicesEnabled:
+    Analytics: 1
+    Purchasing: 1
     UNet: 1
+    Unity Ads: 0
   luminIcon:
     m_Name: 
     m_ModelFolderPath: 
@@ -667,11 +674,11 @@ PlayerSettings:
     m_VersionName: 
   apiCompatibilityLevel: 6
   activeInputHandler: 0
-  cloudProjectId: 
+  cloudProjectId: 101e3df2-2773-4409-a984-5ea0ace10e94
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: 
-  organizationId: 
+  projectName: Jumpy! The legacy of a chicken
+  organizationId: gley
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   virtualTexturingSupportEnabled: 0

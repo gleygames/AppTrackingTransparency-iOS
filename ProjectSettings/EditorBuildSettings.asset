@@ -4,5 +4,12 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Samples/iOS 14 Advertising Support/1.0.0/01 Context Screen/Context
+      Screen Sample.unity
+    guid: a2154acf9dc1c46e5a8df649580ad6b9
+  - enabled: 1
+    path: Assets/GleyPlugins/Ads/Example/Implementation.unity
+    guid: e76ae2aae34bec744a05361b56621ccf
   m_configObjects: {}
